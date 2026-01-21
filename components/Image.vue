@@ -6,7 +6,7 @@ defineProps(["image", "caption", "index", "class"]);
   <div :class="class">
     <img
       class="w-full outline outline-1 outline-gray-300 my-2 p-2"
-      :src="`../pages/${image}`"
+      :src="`${image}`"
       :alt="caption"
     />
   </div>
