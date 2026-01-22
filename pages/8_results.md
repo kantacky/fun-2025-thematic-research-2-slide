@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: 結果
+subtitle: 生成データの特徴
 ---
-
-<Header subtitle="結果">生成データの特徴</Header>
-
-<Container>
 
 - **観察された特徴**
   - 指定エリア内に概ね分布
@@ -16,8 +15,6 @@ layout: content
   - マップ上への撮影地点のプロット
   - 移動経路の確認
 
-</Container>
-
 <!--
 結果として、生成されたデータには以下の特徴が観察されました。
 指定エリア内に概ね分布し、道路網に沿った移動軌跡が確認できました。
@@ -27,19 +24,16 @@ layout: content
 
 ---
 layout: content
+transition: none
+title: 結果
+subtitle: 生成データの可視化
 ---
-
-<Header subtitle="結果">生成データの可視化</Header>
-
-<Container>
 
 <div class="text-center text-gray-500 mt-16">
 
 （ここにマップ上への撮影地点プロットの図を挿入）
 
 </div>
-
-</Container>
 
 <!--
 こちらが生成データをマップ上にプロットした結果です。

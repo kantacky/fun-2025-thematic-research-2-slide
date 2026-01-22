@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: 関連研究
+subtitle: LLMを用いた移動軌跡生成
 ---
-
-<Header subtitle="関連研究">LLMを用いた移動軌跡生成</Header>
-
-<Container>
 
 - **Li らの研究**<Cite index="1" />
   - LLMの構造化出力を活用した空間データ生成フレームワーク
@@ -15,8 +14,6 @@ layout: content
   - フォトウォーク特有の制約への適用は未検証
     - **周回性**：出発地点と到着地点が同一
     - **被写体カテゴリ**：撮影対象の意味的情報
-
-</Container>
 
 <Footer>
 

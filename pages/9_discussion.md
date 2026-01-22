@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: 考察
+subtitle: 生成データの評価
 ---
-
-<Header subtitle="考察">生成データの評価</Header>
-
-<Container>
 
 - **地理的整合性の評価**
   - 道路中心線からの逸脱は軽微
@@ -15,8 +14,6 @@ layout: content
   - 単調な最短経路移動ではない
   - 探索的な行動パターンを再現
   - 被写体カテゴリの多様性を確保
-
-</Container>
 
 <!--
 考察として、地理的整合性の評価では、道路中心線からの逸脱やエリア境界付近の揺らぎは軽微であり、

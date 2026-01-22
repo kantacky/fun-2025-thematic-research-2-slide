@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: 背景
+subtitle: フォトウォークとは
 ---
-
-<Header subtitle="背景">フォトウォークとは</Header>
-
-<Container>
 
 - **フォトウォーク**：散歩中に興味を引いたものを撮影する行為
   - カメラやスマートフォンを持って街を歩き、気になった風景や被写体を撮影
@@ -14,8 +13,6 @@ layout: content
   - SNSでの写真共有文化の普及
   - カメラ付きスマートフォンの高性能化
   - 健康志向と組み合わせた新しい趣味として人気
-
-</Container>
 
 <!--
 まず背景として、フォトウォークについて説明します。
@@ -27,11 +24,10 @@ layout: content
 
 ---
 layout: content
+transition: none
+title: 背景
+subtitle: フォトウォーク体験向上の重要性
 ---
-
-<Header subtitle="背景">フォトウォーク体験向上の重要性</Header>
-
-<Container>
 
 - **ユーザ体験の向上**
   - ユーザの嗜好に合った新しい視点の提供
@@ -41,8 +37,6 @@ layout: content
   - 個人の好みに合わせたスポット推薦
   - 他のユーザとの類似性に基づく推薦
   - 新しい撮影体験の創出
-
-</Container>
 
 <!--
 フォトウォーク体験の向上は重要な研究課題です。

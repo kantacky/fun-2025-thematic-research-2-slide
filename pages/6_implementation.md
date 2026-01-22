@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: 実装
+subtitle: 実装とモデル選定
 ---
-
-<Header subtitle="実装">実装とモデル選定</Header>
-
-<Container>
 
 - **実装環境**
   - Python と Google GenAI SDK による実装
@@ -17,8 +16,6 @@ layout: content
   - **Gemini 3 Flash Preview を採用**
     - 構造化出力の精度向上
     - 地理的制約の理解力が高い
-
-</Container>
 
 <!--
 実装はPythonとGoogle GenAI SDKを使用し、並列処理による高速な大規模データ生成を実現しました。

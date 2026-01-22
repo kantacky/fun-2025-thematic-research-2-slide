@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: 問題
+subtitle: フォトウォークデータ収集の困難さ
 ---
-
-<Header subtitle="問題設定">フォトウォークデータ収集の困難さ</Header>
-
-<Container>
 
 - **収集コストが高い**
   - GPS軌跡と撮影データの同時記録が必要
@@ -18,8 +17,6 @@ layout: content
   - ノイズが多い
   - 撮影意図や移動経路が不明確
   - フォトウォークとしての文脈が失われている
-
-</Container>
 
 <!--
 しかし、フォトウォークデータの収集には課題があります。

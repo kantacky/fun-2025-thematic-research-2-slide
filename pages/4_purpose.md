@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: 研究目的
+subtitle: 本研究の目的と独自性
 ---
-
-<Header subtitle="研究目的">本研究の目的と独自性</Header>
-
-<Container>
 
 - **目的**
   - LLMを活用したフォトウォークデータ生成手法の提案
@@ -16,8 +15,6 @@ layout: content
     - 出発地点と到着地点が同一（周回性）
     - 指定エリア内での行動生成
     - 道路上での撮影位置
-
-</Container>
 
 <!--
 本研究の目的は、LLMを活用したフォトウォークデータ生成手法の提案です。

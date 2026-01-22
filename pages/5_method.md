@@ -1,30 +1,9 @@
 ---
 layout: content
+transition: none
+title: 提案手法
+subtitle: データスキーマ定義
 ---
-
-<Header subtitle="提案手法">データスキーマ定義</Header>
-
-<Container>
-
-<div class="split">
-<div>
-
-**Session（セッション）**
-- セッションID
-- ユーザーID
-- Recordのリスト
-
-</div>
-<div>
-
-**Record（記録）**
-- レコードID
-- 撮影時刻
-- 緯度・経度
-- 被写体カテゴリ
-
-</div>
-</div>
 
 <div class="mt-8">
 
@@ -33,7 +12,27 @@ layout: content
 
 </div>
 
-</Container>
+<div class="split">
+<div>
+
+**Session（セッション）**
+
+- セッションID
+- ユーザーID
+- Recordのリスト
+
+</div>
+<div>
+
+**Record（記録）**
+
+- レコードID
+- 撮影時刻
+- 緯度・経度
+- 被写体カテゴリ
+
+</div>
+</div>
 
 <!--
 提案手法として、まずデータスキーマを定義しました。
@@ -44,11 +43,10 @@ Sessionはセッション全体の情報を、Recordは各撮影地点の情報�
 
 ---
 layout: content
+transition: none
+title: 提案手法
+subtitle: プロンプト設計（1）
 ---
-
-<Header subtitle="提案手法">プロンプト設計（1）</Header>
-
-<Container>
 
 - **地理的整合性の確保**
   - 撮影場所が道路上であること
@@ -60,8 +58,6 @@ layout: content
   - 適切な移動時間の目安（約30分）
   - 撮影枚数の目安（10〜30枚程度）
 
-</Container>
-
 <!--
 プロンプト設計では、地理的整合性の確保と行動のリアリティを重視しました。
 撮影場所が道路上であること、特定エリア内での行動生成を指示しています。
@@ -71,11 +67,10 @@ layout: content
 
 ---
 layout: content
+transition: none
+title: 提案手法
+subtitle: プロンプト設計（2）
 ---
-
-<Header subtitle="提案手法">プロンプト設計（2）</Header>
-
-<Container>
 
 - **エージェントの役割定義**
   - フォトウォーカーとしての振る舞いを指示
@@ -86,8 +81,6 @@ layout: content
   - 時系列順での出力
   - 位置情報の精度（小数点以下6桁）
   - 連続する撮影地点間の距離の妥当性
-
-</Container>
 
 <!--
 エージェントの役割定義では、フォトウォーカーとしての振る舞いを指示し、

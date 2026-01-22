@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: 実験
+subtitle: 実験設定
 ---
-
-<Header subtitle="実験">実験設定</Header>
-
-<Container>
 
 - **対象エリア**
   - 北海道函館市（美原・神山・富岡町・中道エリア）
@@ -15,8 +14,6 @@ layout: content
 
 - **生成規模**
   - 10人のユーザ × 5セッション = 50セッション
-
-</Container>
 
 <!--
 実験設定として、対象エリアは北海道函館市の美原・神山・富岡町・中道エリアを選定しました。

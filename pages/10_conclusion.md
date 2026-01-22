@@ -1,10 +1,9 @@
 ---
 layout: content
+transition: none
+title: まとめ
+subtitle: まとめと今後の課題
 ---
-
-<Header subtitle="まとめ">まとめと今後の課題</Header>
-
-<Container>
 
 - **まとめ**
   - Gemini APIの構造化出力を利用したフォトウォークデータ生成手法を提案
@@ -14,8 +13,6 @@ layout: content
   - フォトスポットと撮影者の同時クラスタリングの実装と評価
   - 実データとの比較による生成データの有用性検証
   - 観光分野の同時クラスタリング手法のフォトウォークへの応用
-
-</Container>
 
 <!--
 まとめとして、本研究ではGemini APIの構造化出力を利用したフォトウォークデータ生成手法を提案しました。
