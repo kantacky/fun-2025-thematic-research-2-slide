@@ -5,22 +5,33 @@ defineProps({
 </script>
 
 <template>
-  <div class="slidev-layout content">
-    <div class="header">
-      <div class="title" v-if="subtitle && $frontmatter.title">
-        {{ $frontmatter.title }}
+  <div class="slidev-layout">
+    <div class="page-number">{{ $page }}</div>
+    <div class="content">
+      <div class="header">
+        <div class="title" v-if="subtitle && $frontmatter.title">
+          {{ $frontmatter.title }}
+        </div>
+        <div class="subtitle" v-if="subtitle || $frontmatter.title">
+          {{ subtitle ?? $frontmatter.title }}
+        </div>
       </div>
-      <div class="subtitle" v-if="subtitle || $frontmatter.title">
-        {{ subtitle ?? $frontmatter.title }}
-      </div>
+      <slot />
     </div>
-    <slot />
   </div>
 </template>
 
 <style>
-.slidev-layout.content {
-  @apply my-4;
+.slidev-layout {
+  @apply relative;
+
+  .page-number {
+    @apply absolute top-8 right-12 text-xl font-bold;
+  }
+
+  .content {
+    @apply flex flex-col gap-4;
+  }
 
   .header {
     @apply flex flex-col gap-1;
