@@ -17,8 +17,7 @@ subtitle: LLMを用いた移動軌跡生成
 
 <Footer>
 
-[1] Li et al. "Structured Spatial Reasoning with Open Geospatial Knowledge Graphs and Geospatial Language Models," 2024.
-
+<Caption index="1" caption='Li et al. "Structured Spatial Reasoning with Open Geospatial Knowledge Graphs and Geospatial Language Models," 2024.' />
 </Footer>
 
 <!--
