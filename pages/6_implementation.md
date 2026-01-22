@@ -5,15 +5,15 @@ title: 実装
 subtitle: 実装とモデル選定
 ---
 
-- 実装環境
+- **実装環境**
   - Python と Google GenAI SDK による実装
   - 並列処理による高速な大規模データ生成
 
-- モデル選定の経緯
+- **モデル選定の経緯**
   - Gemini 2.5 Flash / Lite
     - 構造化出力の品質に課題
     - 地理的整合性が不十分
-  - Gemini 3 Flash Preview を採用
+  - **Gemini 3 Flash Preview を採用**
     - 構造化出力の精度向上
     - 地理的制約の理解力が高い
 
