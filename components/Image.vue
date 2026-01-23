@@ -5,7 +5,7 @@ defineProps(["image", "caption", "index", "class"]);
 <template>
   <div :class="class">
     <img
-      class="w-full h-full object-contain outline outline-1 outline-gray-300 my-1"
+      class="w-full h-full object-contain my-1"
       :src="`${image}`"
       :alt="caption"
     />
