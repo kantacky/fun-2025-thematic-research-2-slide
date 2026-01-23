@@ -21,37 +21,37 @@ src: ./pages/03_problem.md
 ---
 
 ---
-src: ./pages/05_purpose.md
+src: ./pages/04_purpose.md
 ---
 
 ---
-src: ./pages/06_method.md
+src: ./pages/05_method.md
 ---
 
 ---
-src: ./pages/07_implementation.md
+src: ./pages/06_implementation.md
 ---
 
 ---
-src: ./pages/08_experiment.md
+src: ./pages/07_experiment.md
 ---
 
 ---
-src: ./pages/09_results.md
+src: ./pages/08_results.md
 ---
 
 ---
-src: ./pages/10_discussion.md
+src: ./pages/09_discussion.md
 ---
 
 ---
-src: ./pages/11_conclusion.md
+src: ./pages/10_conclusion.md
 ---
 
 ---
-src: ./pages/12_conference.md
+src: ./pages/11_conference.md
 ---
 
 ---
-src: ./pages/13_summary.md
+src: ./pages/12_summary.md
 ---
