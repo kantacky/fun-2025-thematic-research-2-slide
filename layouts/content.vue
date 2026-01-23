@@ -26,7 +26,7 @@ defineProps({
   @apply relative;
 
   .page-number {
-    @apply absolute top-8 right-12 text-xl font-bold;
+    @apply absolute top-8 right-12 text-2xl font-bold;
   }
 
   .content {
@@ -34,7 +34,7 @@ defineProps({
   }
 
   .header {
-    @apply flex flex-col gap-1;
+    @apply flex flex-col;
 
     .title {
       @apply text-lg font-bold;
@@ -50,10 +50,6 @@ defineProps({
     > div {
       @apply flex-1;
     }
-  }
-
-  li {
-    @apply my-1;
   }
 
   table {
