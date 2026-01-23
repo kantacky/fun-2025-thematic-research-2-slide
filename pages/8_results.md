@@ -29,11 +29,7 @@ title: 結果
 subtitle: 生成データの可視化
 ---
 
-<div class="text-center text-gray-500 mt-16">
-
-（ここにマップ上への撮影地点プロットの図を挿入）
-
-</div>
+<Image image="https://i.gyazo.com/ecb964141469e90836abb9c580070426.jpg" caption="図1. Gemini 3 Flash Preview で生成したデータ（抜粋）" class="w-[70%] mx-auto" />
 
 <!--
 こちらが生成データをマップ上にプロットした結果です。
