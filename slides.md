@@ -47,3 +47,7 @@ src: ./pages/9_discussion.md
 ---
 src: ./pages/10_conclusion.md
 ---
+
+---
+src: ./pages/11_conference.md
+---

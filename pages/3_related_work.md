@@ -2,7 +2,6 @@
 layout: content
 transition: none
 title: 関連研究
-subtitle: 同時クラスタリングとLLMを用いた移動軌跡生成
 ---
 
 - **根本らの研究**<Cite index="1" />
@@ -13,11 +12,11 @@ subtitle: 同時クラスタリングとLLMを用いた移動軌跡生成
 - **Li らの研究**<Cite index="2" />
   - LLMの構造化出力を活用した空間データ生成フレームワーク
   - 都市レベルの移動統計データの生成に成功
-  - **課題**：特定のコンテキスト（フォトウォーク）や複雑な行動制約（周回性）への適用は未検証
+  - **課題**：フォトウォークや複雑な行動制約への適用は未検証
 
 <Footer>
 
-<Caption index="1" caption='根本ら「モバイル位置情報データに基づく観光スポットと訪問者の同時クラスタリングと個人的穴場の抽出」都市計画論文集, 2023.' />
+<Caption index="1" caption='根本ら "モバイル位置情報データに基づく観光スポットと訪問者の同時クラスタリングと個人的穴場の抽出" 都市計画論文集, 2023.' />
 <Caption index="2" caption='Li et al. "Large Language Model-Driven Structured Output: A Comprehensive Benchmark and Spatial Data Generation Framework," ISPRS International Journal of Geo-Information, 2024.' />
 </Footer>
 

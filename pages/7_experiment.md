@@ -2,7 +2,6 @@
 layout: content
 transition: none
 title: 実験
-subtitle: 実験設定
 ---
 
 - **対象エリア**

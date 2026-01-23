@@ -2,7 +2,6 @@
 layout: content
 transition: none
 title: 実装
-subtitle: 実装とモデル選定
 ---
 
 - **実装環境**
