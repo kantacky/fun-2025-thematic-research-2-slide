@@ -30,7 +30,7 @@ defineProps({
   }
 
   .content {
-    @apply flex flex-col gap-4;
+    @apply flex flex-col gap-2 text-xl;
   }
 
   .header {
