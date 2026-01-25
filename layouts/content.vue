@@ -33,7 +33,7 @@ defineProps({
   h6,
   p {
     @apply m-0;
-    @apply mt-2;
+    @apply mt-2 mb--2;
   }
 
   h1 {
@@ -92,7 +92,7 @@ defineProps({
   }
 
   pre {
-    @apply my-2;
+    @apply mt-4 mb-2;
     code {
       @apply text-sm/6;
     }
