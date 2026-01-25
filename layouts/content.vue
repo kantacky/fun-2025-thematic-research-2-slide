@@ -86,5 +86,12 @@ defineProps({
       @apply border-b border-gray-400;
     }
   }
+
+  pre {
+    @apply my-2;
+  }
+  code {
+    @apply text-sm/8;
+  }
 }
 </style>
