@@ -16,7 +16,9 @@ defineProps({
           {{ subtitle ?? $frontmatter.title }}
         </div>
       </div>
-      <slot />
+      <div class="content-body">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
@@ -33,7 +35,6 @@ defineProps({
   h6,
   p {
     @apply m-0;
-    @apply mt-2 mb--2;
   }
 
   h1 {
@@ -84,7 +85,6 @@ defineProps({
   }
 
   table {
-    @apply my-8;
     th,
     td {
       @apply border-b border-gray-400;
@@ -92,7 +92,6 @@ defineProps({
   }
 
   pre {
-    @apply mt-4 mb-2;
     code {
       @apply text-sm/6;
     }
