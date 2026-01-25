@@ -13,7 +13,7 @@ defineProps(["image", "caption", "index", "class"]);
   <div v-if="index" class="text-center text-xs">
     {{ caption }} <Cite :index="index" />
   </div>
-  <div v-else class="text-center text-xs">
+  <div v-if="caption" class="text-center text-xs">
     {{ caption }}
   </div>
 </template>

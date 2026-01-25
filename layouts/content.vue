@@ -30,16 +30,17 @@ defineProps({
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  p {
     @apply m-0;
-    @apply font-bold mt-2;
+    @apply mt-2;
   }
 
   h1 {
-    @apply text-xl;
+    @apply text-xl font-bold;
   }
   h2 {
-    @apply text-lg;
+    @apply text-lg font-bold;
   }
   h3,
   h4,
@@ -53,11 +54,11 @@ defineProps({
   }
 
   .content {
-    @apply flex flex-col gap-2 text-lg font-bold;
+    @apply flex flex-col gap-2 text-lg;
   }
 
   .header {
-    @apply flex flex-col pb-1 border-b border-gray-400;
+    @apply flex flex-col mb-2 pb-1 border-b border-gray-400;
 
     .title {
       @apply text-base font-bold;
@@ -69,7 +70,10 @@ defineProps({
   }
 
   ul {
-    @apply list-disc list-inside;
+    @apply list-disc list-outside pl-4;
+    li {
+      @apply my-2 text-base/6;
+    }
   }
 
   .split {
@@ -89,9 +93,9 @@ defineProps({
 
   pre {
     @apply my-2;
-  }
-  code {
-    @apply text-sm/8;
+    code {
+      @apply text-sm/6;
+    }
   }
 }
 </style>
