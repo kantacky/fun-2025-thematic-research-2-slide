@@ -1,8 +1,8 @@
 <div class="flex flex-col gap-12 font-bold">
   <div class="text-xl">課題研究 II</div>
   <div class="flex flex-col gap-4">
-    <div class="text-3xl">フォトスポットと撮影者の同時クラスタリングのための<br />LLM によるフォトウォークデータの生成</div>
-    <div class="text-lg">LLM-Based Photowalk Data Generation<br />for Co-Clustering of Photo Spots and Photographers</div>
+    <div class="text-3xl">個人的穴場フォトスポット推薦に向けた<br />大規模言語モデルによるフォトウォークデータの生成</div>
+    <div class="text-lg">Generating Photowalk Data via Large Language Models<br />for Personalized Hidden Gem Photo Spot Recommendations</div>
   </div>
   <div class="flex flex-col gap-12 text-lg">
     <div>2125011 及川 寛太</div>
@@ -15,5 +15,5 @@
 </div>
 
 <!--
-フォトスポットと撮影者の同時クラスタリングのための LLM によるフォトウォークデータの生成というタイトルで，新美研究室の及川が発表いたします．
+個人的穴場フォトスポット推薦に向けた大規模言語モデルによるフォトウォークデータの生成というタイトルで，新美研究室の及川が発表いたします．
 -->
