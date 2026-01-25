@@ -53,14 +53,13 @@ defineProps({
   }
 
   .content {
-    @apply flex flex-col gap-2 text-lg;
+    @apply flex flex-col gap-2 text-lg font-bold;
   }
 
   .header {
-    @apply flex flex-col border-b border-gray-400;
+    @apply flex flex-col pb-1 border-b border-gray-400;
 
     .title {
-      @apply ml-0.5;
       @apply text-base font-bold;
     }
 
