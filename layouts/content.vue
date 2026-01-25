@@ -25,24 +25,52 @@ defineProps({
 .slidev-layout {
   @apply relative;
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply m-0;
+    @apply font-bold mt-2;
+  }
+
+  h1 {
+    @apply text-xl;
+  }
+  h2 {
+    @apply text-lg;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-base;
+  }
+
   .page-number {
-    @apply absolute top-8 right-12 text-2xl font-bold;
+    @apply absolute top-10 right-14 text-2xl font-bold;
   }
 
   .content {
-    @apply flex flex-col gap-2 text-xl;
+    @apply flex flex-col gap-2 text-lg;
   }
 
   .header {
-    @apply flex flex-col;
+    @apply flex flex-col border-b border-gray-400;
 
     .title {
-      @apply text-lg font-bold;
+      @apply ml-0.5;
+      @apply text-base font-bold;
     }
 
     .subtitle {
-      @apply text-3xl font-bold;
+      @apply text-2xl font-bold;
     }
+  }
+
+  ul {
+    @apply list-disc list-inside;
   }
 
   .split {
