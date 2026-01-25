@@ -12,4 +12,13 @@ subtitle: 実装
   - Gemini 2.5 Flash: 地理的整合性を遵守できない
 
 <!--
+実装の詳細です。
+言語は Python を使用し、Google GenAI SDK を介して Gemini API にアクセスしました。
+大量のデータを効率的に生成するため、並行処理を実装し、高速化を図りました。
+
+モデルの選定においては、Gemini 3 Flash Preview を採用しました。
+比較検討として Gemini 2.5 Flash Lite と Gemini 2.5 Flash も試しましたが、
+Flash Lite は周回性制約（スタートとゴールの一致）を守れないことが多く、
+Flash は地理的整合性（道路上に配置すること）を守れないことが多いという結果になりました。
+Gemini 3 Flash Preview はこれらの制約を最もよく遵守できました。
 -->
